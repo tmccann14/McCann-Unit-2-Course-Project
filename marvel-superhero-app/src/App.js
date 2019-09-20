@@ -6,6 +6,10 @@ import Course from './containers/Course/Course';
 import Users from './containers/Users/Users';
 import NoMatch from './components/NoMatch/NoMatch';
 
+import logo from './hulk-iron-man-captain-america.png'; // Tell Webpack this JS file uses this image
+
+console.log(logo); // /hulk-iron-man-captain-america.png
+
 class App extends Component {
   render () {
     return (
@@ -29,6 +33,7 @@ class App extends Component {
           <Redirect from="/all-courses" to="/courses" />
           <Route component={NoMatch}/>
         </Switch>
+        <img src={logo} alt="hulk-iron-man-captain-america" />
       </div>
     );
   }
