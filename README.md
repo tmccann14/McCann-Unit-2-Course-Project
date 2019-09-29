@@ -1,2 +1,2 @@
 # McCann-Unit-2-Course-Project
-Marvel Superhero App
+Marvel Comics Superhero Knowledge Base Application

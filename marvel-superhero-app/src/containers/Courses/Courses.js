@@ -7,9 +7,10 @@ import Course from '../Course/Course';
 class Courses extends Component {
     state = {
         courses: [
-            { id: 1, title: 'Iron Man - The Complete Guide' },
-            { id: 2, title: 'The Incredible Hulk - The Complete Guide' },
-            { id: 3, title: 'Captain America - The Complete Guide' }
+            { id: 1 ,title: 'Captain America - The Complete Guide' },
+            { id: 2, title: 'Thor - The Complete Guide' },
+            { id: 3, title: 'Iron Man - The Complete Guide' },
+            { id: 4, title: 'The Incredible Hulk - The Complete Guide' }
                        
         ]
     }
